@@ -5,6 +5,8 @@ import {
   FlaskConical,
   Terminal,
   GraduationCap,
+  Moon,
+  Sun,
 } from "lucide-react"
 
 export const Icons = {
@@ -14,4 +16,6 @@ export const Icons = {
   exp: FlaskConical,
   code: Terminal,
   learning: GraduationCap,
+  moon: Moon,
+  sun: Sun
 }
