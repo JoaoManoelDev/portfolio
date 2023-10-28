@@ -7,6 +7,7 @@ import {
   GraduationCap,
   Moon,
   Sun,
+  LayoutGrid,
 } from "lucide-react"
 
 export const Icons = {
@@ -17,5 +18,6 @@ export const Icons = {
   code: Terminal,
   learning: GraduationCap,
   moon: Moon,
-  sun: Sun
+  sun: Sun,
+  layoutGrid: LayoutGrid,
 }

@@ -1,5 +1,5 @@
 import { routes } from "@/constants/nav-routes"
-import { ThemeToggle } from "./theme-toggle"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export const Navbar = () => {
   return (
