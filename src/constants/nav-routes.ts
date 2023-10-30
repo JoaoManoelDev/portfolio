@@ -7,11 +7,6 @@ export const routes = [
     icon: Icons.home,
   },
   {
-    label: 'Sobre',
-    href: '#about',
-    icon: Icons.user,
-  },
-  {
     label: 'Experiência',
     href: '#experience',
     icon: Icons.exp,

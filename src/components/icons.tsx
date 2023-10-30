@@ -8,6 +8,11 @@ import {
   Moon,
   Sun,
   LayoutGrid,
+  GithubIcon,
+  LinkedinIcon,
+  Mouse,
+  ArrowDown,
+  FileUpIcon,
 } from "lucide-react"
 
 export const Icons = {
@@ -20,4 +25,9 @@ export const Icons = {
   moon: Moon,
   sun: Sun,
   layoutGrid: LayoutGrid,
+  gitHub: GithubIcon,
+  linkedin: LinkedinIcon,
+  mouse: Mouse,
+  arrowDown: ArrowDown,
+  fileUp: FileUpIcon,
 }
