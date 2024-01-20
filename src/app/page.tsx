@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button"
+import { Header } from "@/components/header"
 
 const Home = () => {
   return (
     <>
-      <Button>Click Me!</Button>
+      <Header />
+
+      <main className="container max-w-7xl lg:pt-20">
+        Main
+      </main>
     </>
   )
 }
