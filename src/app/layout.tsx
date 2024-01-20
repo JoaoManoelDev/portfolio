@@ -5,6 +5,8 @@ import "@/styles/globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
+import { ThemeProvider } from "@/providers/theme-provider"
+
 export const metadata: Metadata = {
   title: "João Manoel",
   description: "Portfolio de João Manoel",
@@ -16,8 +18,17 @@ const RootLayout = ({
   children: React.ReactNode
 }>) => {
   return (
-    <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
