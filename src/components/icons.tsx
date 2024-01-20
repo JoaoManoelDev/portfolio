@@ -6,7 +6,6 @@ import {
   Contact,
   Moon,
   Sun,
-  SunMoonIcon
 } from "lucide-react"
 
 export const Icons = {
@@ -16,5 +15,5 @@ export const Icons = {
   learning: GraduationCap,
   code: Terminal,
   moon: Moon,
-  sun: SunMoonIcon
+  sun: Sun
 }
