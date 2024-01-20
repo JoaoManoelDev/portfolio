@@ -1,4 +1,5 @@
 import { routes } from "@/constants/nav-routes"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export const Navbar = () => {
   return (
@@ -12,6 +13,8 @@ export const Navbar = () => {
           {route.label}
         </a>
       ))}
+
+      <ThemeToggle />
     </nav>
   )
 }
