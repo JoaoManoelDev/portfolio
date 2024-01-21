@@ -6,6 +6,7 @@ import {
   Contact,
   Moon,
   Sun,
+  LayoutGrid
 } from "lucide-react"
 
 export const Icons = {
@@ -15,5 +16,6 @@ export const Icons = {
   learning: GraduationCap,
   code: Terminal,
   moon: Moon,
-  sun: Sun
+  sun: Sun,
+  layoutGrid: LayoutGrid,
 }
