@@ -24,7 +24,11 @@ export const MobileNavbar = () => {
         </DrawerTrigger>
 
         <DrawerContent>
-          <DrawerHeader className="text-2xl font-semibold mt-4">Menu</DrawerHeader>
+          <DrawerHeader
+            className="text-2xl font-semibold mt-4 sm:text-center"
+          >
+            Menu
+          </DrawerHeader>
 
           <nav className="grid grid-cols-3 gap-1 mb-1">
             {routes.map(route => (
