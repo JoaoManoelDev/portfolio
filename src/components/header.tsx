@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar"
+import { MobileNavbar } from "@/components/mobile-navbar"
 
 export const Header = () => {
   return (
@@ -12,6 +13,7 @@ export const Header = () => {
       </a>
 
       <Navbar />
+      <MobileNavbar />
     </header>
   )
 }

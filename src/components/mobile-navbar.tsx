@@ -13,7 +13,7 @@ import { routes } from "@/constants/nav-routes"
 
 export const MobileNavbar = () => {
   return (
-    <div className="flex justify-center items-center gap-3">
+    <div className="lg:hidden flex justify-center items-center gap-3">
       <ThemeToggle />
 
       <Drawer>
