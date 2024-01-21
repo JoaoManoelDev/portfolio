@@ -6,7 +6,8 @@ import {
   Contact,
   Moon,
   Sun,
-  LayoutGrid
+  LayoutGrid,
+  ChevronDown
 } from "lucide-react"
 
 export const Icons = {
@@ -18,4 +19,5 @@ export const Icons = {
   moon: Moon,
   sun: Sun,
   layoutGrid: LayoutGrid,
+  chevronDown: ChevronDown,
 }
