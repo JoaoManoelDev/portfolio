@@ -31,7 +31,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
+        <div className="w-[260px] h-[260px] lg:w-[400px] lg:h-[400px]">
           <Image
             src="/profile.png"
             alt="profile picture"
