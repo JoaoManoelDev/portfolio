@@ -11,9 +11,9 @@ export const Hero = () => {
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-x-8 border-green-500">
         <div className="max-w-[600px] flex flex-col justify-center gap-y-4 mx-auto lg:mx-0">
           <div>
-            <h1 className="text-2xl font-bold flex flex-col tracking-tighter text-center lg:text-start">
+            <h1 className="text-xl lg:text-2xl font-bold flex flex-col tracking-tighter text-center lg:text-start">
               Olá Mundo,
-              <span className="text-6xl tracking-tighter text-center lg:text-start">Meu nome é João</span>
+              <span className="text-3xl lg:text-6xl tracking-tighter text-center lg:text-start">Meu nome é João</span>
             </h1>
             <h2 className="font-semibold uppercase text-center lg:text-start">Desenvolvedor Front End e Back End</h2>
           </div>
@@ -31,7 +31,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[400px] h-[400px]">
+        <div className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
           <Image
             src="/profile.png"
             alt="profile picture"
