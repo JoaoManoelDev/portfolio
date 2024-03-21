@@ -11,8 +11,8 @@ export const Projects = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 min-w-full gap-2 ">
           {projects.map(project => (
-            <div className="m-0 w-full flex justify-center lg:justify-between">
-              <CardProject key={project.id} project={project} />
+            <div key={project.id} className="m-0 w-full flex justify-center lg:justify-between">
+              <CardProject  project={project} />
             </div>
           ))}
         </div>
