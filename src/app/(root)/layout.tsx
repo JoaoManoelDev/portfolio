@@ -4,7 +4,7 @@ interface RootLayoutProps {
   children: React.ReactNode
 }
 
-const RootLayout = ({
+const RoutesLayout = ({
   children
 }: RootLayoutProps) => {
   return (
@@ -16,4 +16,4 @@ const RootLayout = ({
   )
 }
 
-export default RootLayout
+export default RoutesLayout
