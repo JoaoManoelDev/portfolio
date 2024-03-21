@@ -6,9 +6,8 @@ import Image from "next/image"
 
 export const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28">
-        
-      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-x-8 border-green-500">
+    <section id="home" className="py-12 md:h-[84vh] xl:pt-28">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-x-8">
         <div className="max-w-[600px] flex flex-col justify-center gap-y-4 mx-auto lg:mx-0">
           <div>
             <h1 className="text-xl lg:text-2xl font-bold flex flex-col tracking-tighter text-center lg:text-start">
@@ -46,7 +45,6 @@ export const Hero = () => {
       <div className="hidden lg:flex absolute left-2/4 bottom-20 xl:bottom-12 animate-bounce"> 
         <Icons.chevronDown className="w-5 h-5" />
       </div>
-
     </section>
   )
 }
