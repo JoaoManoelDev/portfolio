@@ -7,8 +7,8 @@ export const routes = [
     icon: Icons.home,
   },
   {
-    label: "Experiência",
-    href: "#experience",
+    label: "Projetos",
+    href: "#projects",
     icon: Icons.exp,
   },
   {
