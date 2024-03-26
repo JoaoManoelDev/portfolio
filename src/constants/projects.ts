@@ -31,28 +31,4 @@ export const projects = [
       },
     ]
   },
-  {
-    id: "2",
-    title: "Coffee Delivery",
-    description: "Sistema de Delivery de café realizado na rocketseat.",
-    technologies: ["React.js", "React Hook Form", "React Router Dom", "Zod", "Tailwind CSS"],
-    images: [
-      {
-        "name": "home",
-        "url": "https://utfs.io/f/aa53ca8f-ca37-42a4-8dca-e7431112de8b-1wrmn.png"
-      },
-    ]
-  },
-  {
-    id: "2",
-    title: "Coffee Delivery",
-    description: "Sistema de Delivery de café realizado na rocketseat.",
-    technologies: ["React.js", "React Hook Form", "React Router Dom", "Zod", "Tailwind CSS"],
-    images: [
-      {
-        "name": "home",
-        "url": "https://utfs.io/f/aa53ca8f-ca37-42a4-8dca-e7431112de8b-1wrmn.png"
-      },
-    ]
-  }
 ]
